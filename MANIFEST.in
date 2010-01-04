@@ -1,0 +1,3 @@
+include schemata/config/deployment.ini_tmpl
+recursive-include schemata/public *
+recursive-include schemata/templates *

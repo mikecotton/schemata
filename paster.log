@@ -1,0 +1,472 @@
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 39107.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 39114.
+serving on http://127.0.0.1:5001
+/Users/mike/schemata/schemata/config/routing.pyc changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 16796.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260859147
+Debug at: http://127.0.0.1:5001/_debug/view/1260859148
+Debug at: http://127.0.0.1:5001/_debug/view/1260859149
+Debug at: http://127.0.0.1:5001/_debug/view/1260859150
+Debug at: http://127.0.0.1:5001/_debug/view/1260859151
+23:03:00,056 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+23:17:35,862 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+13:32:42,283 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (1 working, 9 idle, 0 starting) ave time 0.00sec, max time 0.00sec, killed 0 workers
+14:53:45,654 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+15:09:11,223 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+15:15:16,117 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+15:24:31,642 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+15:42:49,528 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+16:21:04,436 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+16:45:29,016 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+17:03:53,863 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+21:09:50,210 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+22:38:10,845 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1260859152
+22:43:28,509 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (1 working, 9 idle, 0 starting) ave time 8.39sec, max time 8.39sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1260859153
+22:51:47,764 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1260859154
+Debug at: http://127.0.0.1:5001/_debug/view/1260859155
+23:36:02,213 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+23:45:08,776 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+00:14:53,038 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+00:29:13,955 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+00:41:40,285 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+00:51:59,574 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (1 working, 9 idle, 0 starting) ave time 0.01sec, max time 0.01sec, killed 0 workers
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18454.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260955159
+Debug at: http://127.0.0.1:5001/_debug/view/1260955160
+Debug at: http://127.0.0.1:5001/_debug/view/1260955161
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18810.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986046
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18816.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986198
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18818.
+serving on http://127.0.0.1:5001
+Debug at: http://127.0.0.1:5001/_debug/view/1260986245
+Debug at: http://127.0.0.1:5001/_debug/view/1260986246
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986247
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18820.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986286
+Debug at: http://127.0.0.1:5001/_debug/view/1260986287
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18822.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986356
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18824.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986383
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18826.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986390
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18828.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986423
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18832.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986540
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18834.
+serving on http://127.0.0.1:5001
+Debug at: http://127.0.0.1:5001/_debug/view/1260986561
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986562
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18836.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986584
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18838.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986592
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18840.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986601
+Debug at: http://127.0.0.1:5001/_debug/view/1260986602
+Debug at: http://127.0.0.1:5001/_debug/view/1260986603
+Debug at: http://127.0.0.1:5001/_debug/view/1260986604
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18842.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986809
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18845.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986845
+Debug at: http://127.0.0.1:5001/_debug/view/1260986846
+Debug at: http://127.0.0.1:5001/_debug/view/1260986847
+Debug at: http://127.0.0.1:5001/_debug/view/1260986848
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18849.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260986966
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...Debug at: http://127.0.0.1:5001/_debug/view/1260986967
+
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18851.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260987046
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18853.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260987108
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18855.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260987130
+Debug at: http://127.0.0.1:5001/_debug/view/1260987131
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18859.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260987324
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18890.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260988980
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18895.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260989311
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18898.
+serving on http://127.0.0.1:5001
+Debug at: http://127.0.0.1:5001/_debug/view/1260989322
+Debug at: http://127.0.0.1:5001/_debug/view/1260989323
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260989324
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18900.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260989359
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18904.
+serving on http://127.0.0.1:5001
+Debug at: http://127.0.0.1:5001/_debug/view/1260989393
+Debug at: http://127.0.0.1:5001/_debug/view/1260989394
+Debug at: http://127.0.0.1:5001/_debug/view/1260989395
+Debug at: http://127.0.0.1:5001/_debug/view/1260989396
+Debug at: http://127.0.0.1:5001/_debug/view/1260989397
+Debug at: http://127.0.0.1:5001/_debug/view/1260989398
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260989399
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18906.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260989449
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18908.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260989482
+Debug at: http://127.0.0.1:5001/_debug/view/1260989483
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18911.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18959.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260992589
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18972.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 18981.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260992934
+Debug at: http://127.0.0.1:5001/_debug/view/1260992935
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 19024.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260993292
+Debug at: http://127.0.0.1:5001/_debug/view/1260993293
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 19034.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260993304
+Debug at: http://127.0.0.1:5001/_debug/view/1260993305
+Debug at: http://127.0.0.1:5001/_debug/view/1260993306
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 19072.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260993669
+Debug at: http://127.0.0.1:5001/_debug/view/1260993670
+Debug at: http://127.0.0.1:5001/_debug/view/1260993671
+Debug at: http://127.0.0.1:5001/_debug/view/1260993672
+Debug at: http://127.0.0.1:5001/_debug/view/1260993673
+Debug at: http://127.0.0.1:5001/_debug/view/1260993674
+Debug at: http://127.0.0.1:5001/_debug/view/1260993675
+Debug at: http://127.0.0.1:5001/_debug/view/1260993676
+Debug at: http://127.0.0.1:5001/_debug/view/1260993677
+Debug at: http://127.0.0.1:5001/_debug/view/1260993678
+Debug at: http://127.0.0.1:5001/_debug/view/1260993679
+Debug at: http://127.0.0.1:5001/_debug/view/1260993680
+12:18:37,054 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1260993681
+Debug at: http://127.0.0.1:5001/_debug/view/1260993682
+Debug at: http://127.0.0.1:5001/_debug/view/1260993683
+Debug at: http://127.0.0.1:5001/_debug/view/1260993684
+12:53:03,066 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1260993685
+Debug at: http://127.0.0.1:5001/_debug/view/1260993686
+Debug at: http://127.0.0.1:5001/_debug/view/1260993687
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 19240.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 19246.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1260997757
+Debug at: http://127.0.0.1:5001/_debug/view/1260997758
+Debug at: http://127.0.0.1:5001/_debug/view/1260997759
+Debug at: http://127.0.0.1:5001/_debug/view/1260997760
+Debug at: http://127.0.0.1:5001/_debug/view/1260997761
+Debug at: http://127.0.0.1:5001/_debug/view/1260997762
+Debug at: http://127.0.0.1:5001/_debug/view/1260997763
+13:17:31,241 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1260997764
+Debug at: http://127.0.0.1:5001/_debug/view/1260997765
+Debug at: http://127.0.0.1:5001/_debug/view/1260997766
+Debug at: http://127.0.0.1:5001/_debug/view/1260997767
+Debug at: http://127.0.0.1:5001/_debug/view/1260997768
+Debug at: http://127.0.0.1:5001/_debug/view/1260997769
+Debug at: http://127.0.0.1:5001/_debug/view/1260997770
+Debug at: http://127.0.0.1:5001/_debug/view/1260997771
+13:22:43,609 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1260997772
+Debug at: http://127.0.0.1:5001/_debug/view/1260997773
+13:34:20,379 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+12:02:06,889 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1260997774
+13:13:55,890 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (1 working, 9 idle, 0 starting) ave time 0.00sec, max time 0.00sec, killed 0 workers
+13:52:44,607 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+14:27:50,060 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+14:34:04,093 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+14:37:00,061 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (2 working, 8 idle, 0 starting) ave time 0.00sec, max time 0.01sec, killed 0 workers
+15:06:10,760 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (2 working, 8 idle, 0 starting) ave time 0.01sec, max time 0.01sec, killed 0 workers
+15:11:56,497 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+15:13:57,824 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+15:22:26,228 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+15:27:32,317 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (1 working, 9 idle, 0 starting) ave time 0.01sec, max time 0.01sec, killed 0 workers
+19:37:21,043 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (3 working, 7 idle, 0 starting) ave time 0.00sec, max time 0.01sec, killed 0 workers
+19:42:53,529 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+19:58:06,484 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1260997775
+20:05:42,537 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (1 working, 9 idle, 0 starting) ave time 0.00sec, max time 0.00sec, killed 0 workers
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 22970.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1261113426
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 22972.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1261113545
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 22974.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+Debug at: http://127.0.0.1:5001/_debug/view/1261113562
+/Users/mike/schemata/schemata/controllers/index.py changed; reloading...
+/Library/Python/2.6/site-packages/pycrypto-2.0.1-py2.6-macosx-10.6-universal.egg/Crypto/Hash/SHA.py:6: DeprecationWarning: the sha module is deprecated; use the hashlib module instead
+  import warnings
+Starting server in PID 22996.
+serving on http://127.0.0.1:5001
+/Library/Python/2.6/site-packages/httplib2-0.4.0-py2.6.egg/httplib2/__init__.py:29: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+21:50:04,258 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+21:59:35,846 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116386
+Debug at: http://127.0.0.1:5001/_debug/view/1261116387
+Debug at: http://127.0.0.1:5001/_debug/view/1261116388
+22:15:08,782 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116389
+Debug at: http://127.0.0.1:5001/_debug/view/1261116390
+22:55:29,782 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116391
+Debug at: http://127.0.0.1:5001/_debug/view/1261116392
+Debug at: http://127.0.0.1:5001/_debug/view/1261116393
+23:07:07,209 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116394
+Debug at: http://127.0.0.1:5001/_debug/view/1261116395
+Debug at: http://127.0.0.1:5001/_debug/view/1261116396
+Debug at: http://127.0.0.1:5001/_debug/view/1261116397
+Debug at: http://127.0.0.1:5001/_debug/view/1261116398
+Debug at: http://127.0.0.1:5001/_debug/view/1261116399
+Debug at: http://127.0.0.1:5001/_debug/view/1261116400
+Debug at: http://127.0.0.1:5001/_debug/view/1261116401
+08:44:01,275 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116402
+Debug at: http://127.0.0.1:5001/_debug/view/1261116403
+Debug at: http://127.0.0.1:5001/_debug/view/1261116404
+Debug at: http://127.0.0.1:5001/_debug/view/1261116405
+Debug at: http://127.0.0.1:5001/_debug/view/1261116406
+Debug at: http://127.0.0.1:5001/_debug/view/1261116407
+Debug at: http://127.0.0.1:5001/_debug/view/1261116408
+09:45:16,062 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116409
+Debug at: http://127.0.0.1:5001/_debug/view/1261116410
+Debug at: http://127.0.0.1:5001/_debug/view/1261116411
+Debug at: http://127.0.0.1:5001/_debug/view/1261116412
+Debug at: http://127.0.0.1:5001/_debug/view/1261116413
+09:56:12,236 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116414
+10:00:26,174 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+10:08:34,069 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+13:14:14,418 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+13:17:14,939 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+13:23:35,054 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116415
+Debug at: http://127.0.0.1:5001/_debug/view/1261116416
+Debug at: http://127.0.0.1:5001/_debug/view/1261116417
+Debug at: http://127.0.0.1:5001/_debug/view/1261116418
+Debug at: http://127.0.0.1:5001/_debug/view/1261116419
+13:30:26,214 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116420
+13:40:00,783 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116421
+Debug at: http://127.0.0.1:5001/_debug/view/1261116422
+Debug at: http://127.0.0.1:5001/_debug/view/1261116423
+15:08:57,346 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116424
+14:01:41,236 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+Debug at: http://127.0.0.1:5001/_debug/view/1261116425
+Debug at: http://127.0.0.1:5001/_debug/view/1261116426
+Debug at: http://127.0.0.1:5001/_debug/view/1261116427
+Debug at: http://127.0.0.1:5001/_debug/view/1261116428
+14:15:07,449 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
+21:01:43,041 INFO  [paste.httpserver.ThreadPool] kill_hung_threads status: 10 threads (0 working, 10 idle, 0 starting) ave time N/A, max time 0.00sec, killed 0 workers
