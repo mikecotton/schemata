@@ -50,6 +50,15 @@ iteration = document.getElementsByTagName('li').length;
 
 function add_list_element(){
 
+function get_index() {
+var i = iteration - 1;
+while (i > 0){
+    if (document.getElementById('row_or_column_' + (i)) != null){
+      	 return (document.getElementById('row_or_column_' + (i)).selectedIndex);
+        };
+    i--;
+    };
+};
 
 var rclist = document.getElementById('row_column_list');
 
@@ -63,7 +72,7 @@ var new_text_field = document.createElement('input');
 var new_select = document.getElementById('row_or_column_0').cloneNode(true);
     new_select.id = ('row_or_column_' + iteration);
     new_select.name = ('row_or_column_' + iteration);
-    new_select.options[document.getElementById('row_or_column_' + (iteration - 1)).selectedIndex].selected = true;
+    new_select.options[get_index()].selected = true;
 
 var new_delete_button = document.createElement('input');
     new_delete_button.type = ('button');
@@ -83,6 +92,3 @@ Sortable.create('row_column_list', tag='li');
 </script>
 <br/>
 
-<script "text/javascript">
-last_selected_option = document.getElementById('row_or_column_' + (iteration - 1)).selectedIndex;
-</script>
