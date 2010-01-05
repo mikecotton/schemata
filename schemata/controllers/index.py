@@ -94,20 +94,37 @@ class IndexController(BaseController):
         return redirect_to(redirect)
 
     def display_data(self):
-        c.table_name = request.params.get('table_name', None)
-        c.table_index = request.params.get('table_index', None)
-        c.table_version = request.params.get('table_version', None)
+        csv = request.params.get('csv')
+        c.table_name = request.params.get('table_name')
+        c.table_index = request.params.get('table_index')
+        c.table_version = request.params.get('table_version')
 
         db = server[c.table_name]
         c.category_data = db['data_models'][c.table_version]
         c.table_data = db[c.table_index]
 
+        if csv:
+            column_string = ','.join(
+                [i['name'] for i in c.category_data['columns']])
+
+            csv_string = column_string + '\n'
+
+            row_name = c.table_data['data'][0]['row_name']
+            csv_string += row_name
+            for cell in c.table_data['data']:
+                if cell['row_name'] != row_name:
+                    csv_string += ('\n' + cell['row_name'])
+                    row_name = cell['row_name']
+                csv_string += (',' + cell['value'])
+
+            response.headers['Content-Type'] = 'application/vnd.ms-excel'
+            return(csv_string)
 
         return render('display_data.mako')
 
     def new_table(self):
-        c.table_name = request.params.get('table_name', None)
-        c.table_version = request.params.get('table_version', None)
+        c.table_name = request.params.get('table_name')
+        c.table_version = request.params.get('table_version')
         c.data_model = {}
 
         #new table
