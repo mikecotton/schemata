@@ -27,7 +27,14 @@ delete_list_element(document.getElementById('list_element_${i}'))
 %endfor
 </ol>
 <input id="add" type="button" value="add" onClick="add_list_element()">
-<input type='submit'>
+<input type="button" value="submit" onclick="new function(){ 
+       if (document.getElementById('table_index').value == '') {
+       	  alert('Table Index cannot be left blank.')
+       }
+       else {
+      	  document.getElementById('data_entry_form').submit()
+       };
+}">
 </form>
 
 <script type="text/javascript">

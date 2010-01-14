@@ -20,7 +20,6 @@ class IndexController(BaseController):
         c.table_indexes = {}
         for table in c.all_tables:
             c.table_ranges[table] = server[table]['data_models']['ranges']
-
             c.table_indexes[table] = [t for t in server[table] if t != 'data_models' and t != 'app_name']
 
         return render('index.mako')
@@ -94,33 +93,41 @@ class IndexController(BaseController):
         return redirect_to(redirect)
 
     def display_data(self):
-        csv = request.params.get('csv')
         c.table_name = request.params.get('table_name')
-        c.table_index = request.params.get('table_index')
         c.table_version = request.params.get('table_version')
+        c.table_index = request.params.get('table_index')
 
         db = server[c.table_name]
         c.category_data = db['data_models'][c.table_version]
+
         c.table_data = db[c.table_index]
 
-        if csv:
-            column_string = ','.join(
-                [i['name'] for i in c.category_data['columns']])
-
-            csv_string = column_string + '\n'
-
-            row_name = c.table_data['data'][0]['row_name']
-            csv_string += row_name
-            for cell in c.table_data['data']:
-                if cell['row_name'] != row_name:
-                    csv_string += ('\n' + cell['row_name'])
-                    row_name = cell['row_name']
-                csv_string += (',' + cell['value'])
-
-            response.headers['Content-Type'] = 'application/vnd.ms-excel'
-            return(csv_string)
-
         return render('display_data.mako')
+
+    def csv(self):
+        table_name = request.params.get('table_name')
+        table_version = request.params.get('table_version')
+        table_index = request.params.get('table_index')
+
+        db = server[table_name]
+        category_data = db['data_models'][table_version]
+        table_data = db[table_index]
+
+        column_string = ','.join(
+            [i['name'] for i in category_data['columns']])
+
+        csv_string = column_string + '\n'
+
+        row_name = table_data['data'][0]['row_name']
+        csv_string += row_name
+
+        for cell in table_data['data']:
+            if cell['row_name'] != row_name:
+                csv_string += ('\n' + cell['row_name'])
+                row_name = cell['row_name']
+            csv_string += (',' + cell['value'])
+        response.headers['Content-Type'] = 'application/vnd.ms-excel'
+        return(csv_string)
 
     def new_table(self):
         c.table_name = request.params.get('table_name')

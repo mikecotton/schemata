@@ -26,6 +26,7 @@ def make_map():
     map.connect('/data_entry', controller='index', action='data_entry')
     map.connect('/display_data', controller='index', action='display_data')
     map.connect('/', controller='edit', action='index')
+    map.connect('/csv/:file_name', controller='index', action='csv')
     map.connect('/{controller}/{action}')
     map.connect('/{controller}/{action}/{id}')
 
