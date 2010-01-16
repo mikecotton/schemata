@@ -1,7 +1,7 @@
 <%inherit file="base.mako"/>
-<form target="/new_table">
-Table Name: <input name="table_name" value="${c.table_name}"/><br/>
-Table Version: <input name="table_version" /><br/>
+<form target="/new_table" id="create_table_form">
+Table Name: <input id="table_name" name="table_name" value="${c.table_name}"/><br/>
+Table Version: <input id="table_version" name="table_version" /><br/>
 X-Axis Label: <input name="x_axis_label" value="${c.x_axis_label}"/><br/>
 Y-Axis Label: <input name="y_axis_label" value="${c.y_axis_label}"/><br/>
 <ol id="row_column_list">
@@ -28,11 +28,11 @@ delete_list_element(document.getElementById('list_element_${i}'))
 </ol>
 <input id="add" type="button" value="add" onClick="add_list_element()">
 <input type="button" value="submit" onclick="new function(){ 
-       if (document.getElementById('table_index').value == '') {
-       	  alert('Table Index cannot be left blank.')
+       if (document.getElementById('table_version').value == '') {
+       	  alert('Table Version cannot be left blank.')
        }
        else {
-      	  document.getElementById('data_entry_form').submit()
+      	  document.getElementById('create_table_form').submit()
        };
 }">
 </form>
@@ -64,6 +64,9 @@ while (i > 0){
       	 return (document.getElementById('row_or_column_' + (i)).selectedIndex);
         };
     i--;
+    };
+    if (i == 0){
+       return (0);
     };
 };
 
@@ -97,5 +100,20 @@ Sortable.create('row_column_list', tag='li');
 };
 
 </script>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 
