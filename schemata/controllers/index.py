@@ -127,6 +127,7 @@ class IndexController(BaseController):
                 row_name = cell['row_name']
             csv_string += (',' + cell['value'])
         response.headers['Content-Type'] = 'application/vnd.ms-excel'
+        csv_string = csv_string.encode('utf-8')
         return(csv_string)
 
     def new_table(self):
