@@ -7,10 +7,11 @@
 <h2>${table}</h2>
 %for version in c.table_ranges[table].keys():
 version: ${version}<br/>
+<a href="/csv/${table}_${version}_all_indexes?table_name=${table}&table_version=${version}&all_indexes=true">csv of all instances of ${version}</a><br/><br/>
 %for index in c.table_ranges[table][version]:
 ${index} <a href="/data_entry?table_name=${table}&table_version=${version}&table_index=${index}&edit=true">edit</a>, 
 <a href="/display_data?table_name=${table}&table_version=${version}&table_index=${index}">show</a>, 
-<a href="/csv/${table}|${version}|${index}?table_name=${table}&table_version=${version}&table_index=${index}">csv</a> 
+<a href="/csv/${table}_${version}_${index}?table_name=${table}&table_version=${version}&table_index=${index}">csv</a> 
 <br/>
 %endfor
 <a href="/data_entry?table_name=${table}&table_version=${version}&new=true">Add new instance of ${table}</a><br/>

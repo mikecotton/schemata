@@ -108,24 +108,45 @@ class IndexController(BaseController):
         table_name = request.params.get('table_name')
         table_version = request.params.get('table_version')
         table_index = request.params.get('table_index')
+        all_indexes = request.params.get('all_indexes')
+        index_on_row = request.params.get('index_on_row', 'True')
 
         db = server[table_name]
         category_data = db['data_models'][table_version]
-        table_data = db[table_index]
+        cells = db.get(table_index,{}).get('data', [])
+
+        if all_indexes:
+            for index in db['data_models']['ranges'][table_version]:
+                cell_data = db[index]['data']
+                for cell in cell_data:
+                    cell['index'] = index
+                cells.extend(cell_data)
+        else:
+            for cell in cells:
+                cell['index'] = table_index
 
         column_string = ','.join(
             ['"%s"' % i['name'] for i in category_data['columns']])
 
+        if index_on_row == 'True':
+            column_string += ',"index"'
         csv_string = column_string + '\n'
 
-        row_name = table_data['data'][0]['row_name']
+        row_name = cells[0]['row_name']
         csv_string += '"%s"' % row_name
 
-        for cell in table_data['data']:
+        for j, cell in enumerate(cells):
             if cell['row_name'] != row_name:
+                if index_on_row == 'True':
+                    csv_string += (',"%s"' % cell['index'])
                 csv_string += ('\n"%s"' % cell['row_name'])
                 row_name = cell['row_name']
+
             csv_string += (',"%s"' % cell['value'])
+
+            if j == (len(cells) - 1) and index_on_row == 'True':
+                csv_string += '"%s"' % cell['index']
+
         response.headers['Content-Type'] = 'application/csv'
         csv_string = csv_string.encode('utf-8')
         return(csv_string)
