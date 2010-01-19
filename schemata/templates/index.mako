@@ -12,7 +12,6 @@ ${index} <a href="/data_entry?table_name=${table}&table_version=${version}&table
 <a href="/display_data?table_name=${table}&table_version=${version}&table_index=${index}">show</a>, 
 <a href="/csv/${table}|${version}|${index}?table_name=${table}&table_version=${version}&table_index=${index}">csv</a> 
 <br/>
-<br/>
 %endfor
 <a href="/data_entry?table_name=${table}&table_version=${version}&new=true">Add new instance of ${table}</a><br/>
 <a href="/new_table?table_name=${table}&table_version=${version}">Create a new table based on ${table}</a>
