@@ -114,19 +114,19 @@ class IndexController(BaseController):
         table_data = db[table_index]
 
         column_string = ','.join(
-            [i['name'] for i in category_data['columns']])
+            ['"%s"' % i['name'] for i in category_data['columns']])
 
         csv_string = column_string + '\n'
 
         row_name = table_data['data'][0]['row_name']
-        csv_string += row_name
+        csv_string += '"%s"' % row_name
 
         for cell in table_data['data']:
             if cell['row_name'] != row_name:
-                csv_string += ('\n' + cell['row_name'])
+                csv_string += ('\n"%s"' % cell['row_name'])
                 row_name = cell['row_name']
-            csv_string += (',' + cell['value'])
-        response.headers['Content-Type'] = 'application/vnd.ms-excel'
+            csv_string += (',"%s"' % cell['value'])
+        response.headers['Content-Type'] = 'application/csv'
         csv_string = csv_string.encode('utf-8')
         return(csv_string)
 
