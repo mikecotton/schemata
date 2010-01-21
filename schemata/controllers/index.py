@@ -125,7 +125,7 @@ class IndexController(BaseController):
             for cell in cells:
                 cell['index'] = table_index
 
-        column_string = ','.join(
+        column_string =  '"Row Names",' + ','.join(
             ['"%s"' % i['name'] for i in category_data['columns']])
 
         if index_on_row == 'True':
