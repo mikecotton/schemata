@@ -145,7 +145,7 @@ class IndexController(BaseController):
             csv_string += (',"%s"' % cell['value'])
 
             if j == (len(cells) - 1) and index_on_row == 'True':
-                csv_string += '"%s"' % cell['index']
+                csv_string += ',"%s"' % cell['index']
 
         response.headers['Content-Type'] = 'application/csv'
         csv_string = csv_string.encode('utf-8')
