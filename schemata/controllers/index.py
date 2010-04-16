@@ -138,7 +138,11 @@ class IndexController(BaseController):
         for j, cell in enumerate(cells):
             if cell['row_name'] != row_name:
                 if index_on_row == 'True':
-                    csv_string += (',"%s"' % cell['index'])
+                    if cell['index'] != cells[j-1]['index']:
+                        csv_string += (',"%s"' % cells[j-1]['index'])
+                    else:
+                        csv_string += (',"%s"' % cell['index'])
+
                 csv_string += ('\n"%s"' % cell['row_name'])
                 row_name = cell['row_name']
 
